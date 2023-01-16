@@ -198,6 +198,8 @@ startbtn.addEventListener('click', function(){
   cardclicks=0;
   score=0
   document.getElementById('score').innerText = `No. of tries: ${score}`
+  document.querySelector('label').innerText = "your progress:"
+  document.querySelector('label').classList.remove("won")
 
 })
 
