@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Let's play Memory!</h1>
+    <button class = "startbutton" id="startbtn">START / RESTART</button>
+    <p></p>
+    <label for = "progress">your progress:</label>
+    <progress id = "progress" value="0"></progress>
+    <span class="stats" id="score">No. of tries:</span>
+    <span class="hs">
+    <span class="stats" id="highscore">Best game:</span>
+    <button id="clearhs">x</button>
+    </span>
+    <div id="game">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

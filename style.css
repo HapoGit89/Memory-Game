@@ -1,0 +1,95 @@
+body {
+  background-color:rgb(249, 249, 249)
+}
+
+h1{
+  border-style: solid;
+  padding-left: 35%;
+  padding-right: 20%;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  font-family: 'EB Garamond', serif;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+#game div {
+  border: 3px solid rgb(53, 51, 51);
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  margin-left: 2%;
+  
+ 
+}
+
+.stats {
+
+margin-left: 30px;
+
+}
+
+.orange{
+  
+  
+}
+
+.red{
+  
+}
+
+.blue{
+  
+}
+
+.green{ 
+  
+}
+
+.purple{
+  
+}
+
+.closed {
+  background-color: black;
+  filter: contrast(0%)
+  
+}
+
+.won {
+
+  color: rgb(72, 49, 49);
+  font-size: 2rem;
+  font-weight: bolder;
+
+}
+
+.startbutton{
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.hs {
+  margin-left: 2px;
+  padding: 5px;
+  border-width: 2px;
+  text-align: left;
+  border-radius: 3%;
+
+  
+}
+
+.catpic {
+  width: 200px;
+  height: auto;
+
+}
